@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+    background: dimgrey; font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+table{
+      width: 40%;
+      margin: auto;
+      border: 2px black solid;
+
+}
+
+th{
+     background: orangered;
+     text-align: left;
+     padding: 12px;
+     color: green;
+}
+
+
+td{
+    border:1px solid white;
+    padding-left: 8px; padding-top:6px; padding-bottom: 6px;
+}
+table, th, td {
+                 border-collapse: collapse;
+}

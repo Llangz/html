@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        body{
+            background: grey;
+        }
+
+        form{
+            width: 30%;
+            margin: auto;
+            background: antiquewhite;
+            border: 2px solid darkred;
+            padding: 12px;
+
+        }
+        .x{
+            width: 100%;
+            margin-bottom: 12px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 8px;
+            box-sizing: border-box;
+        }
+        span{
+            color: #ff1315;
+            display: block;
+        }
+        p{
+            color: darkred;
+        }
+        button{
+            background: white;
+            margin-top: 19px;
+            border: none;
+            border-radius: 0px;
+            color: black;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<form action="">
+
+    <input class="x" type="text" placeholder="Enter Names" required>
+    <input class="x" type="email" placeholder="Enter Email" required>
+    <input class="x" type="password" placeholder="Enter Password" required>
+    <input class="x" type="date" name="Date of Birth" required>
+    <input class="x" type="age" placeholder="Enter Age" max="80" min="15" required>
+
+    <select class="x" name="Course" id="Course">
+        <option value="1">MBA</option>
+        <option value="2">MSc</option>
+        <option value="3">MA</option>
+        <option value="4">LLB</option>
+
+    </select>
+
+
+    <span><input type="radio" name="gender" value="male"> Male <br></span>
+    <span><input type="radio" name="gender" value="female"> Female <br></span>
+    <span><input type="radio" name="gender" value="other"> Other <br></span>
+
+    <p>Select your Favorite Team(s)</p>
+    <span><input type="checkbox"> Chelsea</span>
+    <span><input type="checkbox"> MUFC</span>
+    <span><input type="checkbox"> MCFC</span>
+    <span><input type="checkbox"> Liverpool</span>
+    <span><input type="checkbox"> Arsenal</span>
+
+<button class="x">Register</button>
+
+
+</form>
+
+</body>
+</html>
